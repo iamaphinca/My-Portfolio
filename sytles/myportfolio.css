@@ -1,20 +1,31 @@
+:root{
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --primary-color:radial-gradient(circle, rgba(38,57,177,1) 0%, rgba(39,41,109,1) 100%);
+    --secondary-color:#ffe35e
+}
+
 body{
-    background: aqua;
+    background:var(--primary-color);;
 }
-/*font-family: 'Sora', sans-serif;
-font-family: 'Ubuntu', sans-serif;*/
 
-h1{
-font-family: 'Ubuntu', sans-serif;
+h1 {
+
+font-family: 'Sora', sans-serif;
 font-weight: bold;
-
 }
 
+h2{font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+     
+}
 p{
     font-family: 'Sora', sans-serif;
-    
 }
-.school{
-    font-weight: bold;
-    color: blueviolet;
+
+.fas,a {
+    color: var(--secondary-color);
 }
+.homepage{
+    margin:150px 200px;
+}
+
