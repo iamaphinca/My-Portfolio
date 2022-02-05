@@ -1,7 +1,10 @@
 :root{
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     --primary-color:radial-gradient(circle, rgba(38,57,177,1) 0%, rgba(39,41,109,1) 100%);
-    --secondary-color:#ffe35e
+    --secondary-color:#ffe35e;
+    --default-font-family:'Sora', sans-serif;
+    --heading-font-family:'Ubuntu', sans-serif;
+    --heading-color:#f5f9ee;
 }
 
 body{
@@ -10,18 +13,22 @@ body{
 
 h1 {
 
-font-family: 'Sora', sans-serif;
+font-family: var(--default-font-family);
 font-weight: bold;
+color: var(--heading-color);
 }
 
-h2{font-family: 'Ubuntu', sans-serif;
+h2{font-family: var(--heading-font-family);
   font-size: 30px;
+  color: var(--heading-color);
      
 }
 p{
-    font-family: 'Sora', sans-serif;
+    font-family: var(--default-font-family);
 }
-
+img{
+    box-shadow: var(--box-shadow);
+}
 .fas,a {
     color: var(--secondary-color);
 }
