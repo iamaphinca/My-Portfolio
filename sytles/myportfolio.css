@@ -26,8 +26,16 @@ h1,h2{
 }
 img{
     padding-right: 60px;
-}
-.homepage{
-    margin:150px 200px;
+    color: var(--heading-color);  
 }
 
+h3,a{
+    font-family:'Ubuntu', sans-serif ;
+}
+
+img{
+    padding-right: 60px;
+}
+.tag-line{
+    padding: 30px 10px;
+}
