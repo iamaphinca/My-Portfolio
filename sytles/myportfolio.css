@@ -24,8 +24,11 @@ h1,h2{
   font-weight: bold;
   line-height: 1.5;
 }
-img{
-    padding-right: 60px;
+h1,h3{
+    color: var(--secondary-color);
+}
+
+h2,a {
     color: var(--heading-color);  
 }
 
