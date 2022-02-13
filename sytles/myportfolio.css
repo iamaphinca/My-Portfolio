@@ -46,6 +46,13 @@
     background-size: cover;
 }
 
+.gallery{
+    max-width: 1280px;
+    margin: 0 auto;  
+    background-color: #FAF5E0;
+    background-size: cover;
+}
+
 @media (max-width:800px){
 
    .countries p{
