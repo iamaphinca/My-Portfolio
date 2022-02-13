@@ -45,3 +45,12 @@
     background-color: #FAF5E0;
     background-size: cover;
 }
+
+@media (max-width:800px){
+
+   .countries p{
+     
+        margin-top: 0px!important;
+        padding: 0px!important;
+    }
+}
