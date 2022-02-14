@@ -1,11 +1,6 @@
 
 
-a {
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-}
-
+.
 
 .gallery{
     max-width: 1280px;
@@ -53,3 +48,10 @@ a {
     background-color: #FAF5E0;
     background-size: cover;
 }
+
+.contact a{
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
