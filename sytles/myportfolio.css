@@ -35,7 +35,7 @@ footer .social-link a:hover{
 
 .gallery{
    
-    margin: 0 auto;  
+    margin: 50px auto;  
     background-color: #FAF5E0;
     background-size: cover;
 }
@@ -70,14 +70,17 @@ footer .social-link a:hover{
 }
 
 .carousel-item img{
-    height: 395px;   
+    height: 480px;   
 }
 
+@media (max-width:900px){
 
-
-.contact a{
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
+    body{
+        margin-top: 20px;
+    }
+    .carousel-item img{
+        height: 300px;   
+    }
 }
+
 
