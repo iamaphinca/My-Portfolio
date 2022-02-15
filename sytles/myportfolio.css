@@ -3,12 +3,22 @@ body{
     background-color: #FAF5E0;
 }
 
+h1
+h2{
+    font-family: var(--main-heading-font-family) ;
+}
+
+p{
+    font-family:
+}
+
 footer .email-link{
     text-decoration: none;
     color: black;
     font-size: 12px;
     text-align: center;
     font-weight: bold;
+    font-family: var(--link-font-family);
 }
 
 
@@ -33,6 +43,7 @@ footer .social-link a:hover{
     background: #FAF5E0;
 }
 
+
 .gallery{
    
     margin: 50px auto;  
@@ -50,6 +61,7 @@ footer .social-link a:hover{
     font-weight: bold;
     letter-spacing: 1.5px;
     padding-top: 5px;
+    font-family: var(--link-font-family);
 }
 
 
@@ -73,6 +85,12 @@ footer .social-link a:hover{
     height: 480px;   
 }
 
+#contact-photo{
+    max-width: 350px;
+}
+
+
+
 @media (max-width:900px){
 
     body{
@@ -81,6 +99,7 @@ footer .social-link a:hover{
     .carousel-item img{
         height: 300px;   
     }
+    
 }
 
 

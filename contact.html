@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Mae Tran</title>
+    <meta name="description" content="Mae is a front-end developer from Toronto.">
+    <title>Contact Mae Tran</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -25,8 +26,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
 
-          <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="logo" title="Logo" >  MAE TRAN
+          <a class="navbar-brand" href="#" title="Homepage">
+            <img src="img/logo.png" alt="logo" title="Mae Tran Logo"> MAE TRAN
           </a>
           
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,16 +37,16 @@
             
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li class="nav-item p-2">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html" title="Homepage">Home</a>
+              </li>
+              <li class="nav-item  p-2">
+                <a class="nav-link about" href="about.html" title="About Mae">About</a>
               </li>
               <li class="nav-item p-2">
-                <a class="nav-link about" href="about.html">About</a>
+                <a class="nav-link work" href="gallery.html" title="Gallery">Gallery</a>
               </li>
-              <li class="nav-item p-2">
-                <a class="nav-link work" href="gallery.html">Gallery</a>
-              </li>
-              <li class="nav-item p-2">
-                  <a class="nav-link contact" href="contact.html">Contact</a>
+              <li class="nav-item active p-2">
+                  <a class="nav-link contact" href="contact.html" title="Contact Mae">Contact</a>
               </li>
             </ul>
             
@@ -53,24 +54,50 @@
         </div>
     </nav>
    
-    <div class="content-container container">
-        <div class="content m-5 ps-5">
-            <h1 class="mb-5">
-                Let's get connected!
-            </h1>
-            <h3>Email</h3>
-            <p>
-                <a href="mailto:maelencion@gmail.com">maemelencion@gmail.com</a>  
-            </p>
-            <h3>Instagram</h3>
-            <p>
-               <a href="https://twitter.com/iaminausie" target="_blank">iaminausie</a> 
-            </p>
-            <h3>Twitter</h3>
-            <p>
-               <a href="https://www.instagram.com/iaminausie/" target="_blank">@iaminausie.ca</a> 
-            </p>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-sm-6 p-5">
+          <h2 class="text-center pt-5">Every picture tells a story!</h2>
+          <p class="pt-3 d-none d-lg-block">
+            It preserves our history, the precious moments with the significant people in our lives.
+            It is a way of expressing ourselves. And by sharing it, we can impart to others our feelings
+            and connect with them.
+
+            <br>
+
+            So, start clicking and taking photos because "any moment not captured is lost forever"!
+
+          </p>
+          <button type="button" class="btn btn-lg mx-auto text-white bg-warning">
+            <a href="contact.html#contact-details" class="text-decoration-none" title="Contact Mae">Let's Talk!😊</a>
+          </button>
+      </div>
+        <div class="col-sm-6">
+            <img class="img-fluid rounded" src="img/pic9.jpg" alt="Panda Photo" title="Smiling Panda">
         </div>
+        
+    </div>      
+
+        <footer class="mt-5 p-5" id="contact-details">
+          <div class="d-flex justify-content-center p-3">
+          <a href="mailto:maemelencion@gmail.com" class="email-link">maemelencion@gmail.com</a>
+          </div>
+          <div class="social-link d-flex justify-content-center pt-2 ">
+              <a href="https://www.instagram.com/iaminausie/" target="_blank" title="Connect with Mae">
+                  <i class="fab fa-instagram"></i>
+              </a>
+
+              <a href="https://github.com/iamaphinca" target="_blank" title="Mae's Project repositories">
+                  <i class="fab fa-github"></i>
+              </a>
+
+              <a href="https://twitter.com/iaminausie" target="_blank" title="See Mae's tweet">
+                  <i class="fab fa-twitter"></i>
+              </a>
+              
+          </div>
+        </footer>
+          
     </div>
               
 </body>
